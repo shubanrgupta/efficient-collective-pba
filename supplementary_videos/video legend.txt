@@ -1,0 +1,41 @@
+Supplementary video 1: Video 1- figure_2b_nopba
+2 agent dynamics without PBA. 2 agents following SFM dynamics with opposing goal directions are positioned at the same y coordinate (with slight noise added), poised to collide. The agents get stuck in a jammed state for a few time units (as inter-agent repulsion and velocity restitution forces balance) before slowly going around each other and resolving the jam. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 2: Video 2-figure_2b_withpba
+2 agent dynamics with PBA. 2 agents following PBA dynamics with opposing goal directions are positioned at the same y coordinate, poised to collide. The agents perceive each other's presence and turn away earlier to mitigate the slowdown caused by the collision. The agents never go into a jammed state. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 3: Video 3-figure_2b_withpba_blind
+2 agent dynamics with blind PBA. 2 agents that are following PBA but cannot perceive each other's presence are placed on the same y coordinate, poised to collide. The agents change their desired direction due to the noise associated with the decision-making process. Since the agents do not perceive each other, the noise is insufficient to prevent the collision, as agents can end up turning in the same direction due to noise. Once the agents collide, they resolve the jam and are able to attain their goal velocities. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 4: Video 4-figure_3A_pba_2agents_noshuffle
+2 agent jam resolution without the awkward shuffle. 2 agents that are following PBA begin from a collision situation. The agents both turn in the clockwise direction and resolve the jam successfully. Agents are equipped with PBA at t=36.00
+
+Supplementary video 5: Video 5-figure_3B_pba_2agents_shuffle
+2 agent awkward shuffle. 2 agents that are following PBA begin from a collision situation. The blue agent moves clockwise while the red one moves counterclockwise, recreating the jam. Multiple such attempts are required before the jam is resolved successfully. Agents are equipped with PBA at t=36.00
+
+
+Supplementary video 6: Video 6-figure_4_nopba
+40 agent laning dynamics in the absence of PBA. Agents start arranged in a grid with noise added to their positions. The 20 agents on the left desire to move right and vice versa. Agents move towards each other and get stuck in a jam as forces (inter-agent repulsion and restitution force) balance out. The initial jam is slowly resolved, but the agents continue to collide with each other as proper lane formation doesn't fully occur. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 7: Video 7-figure_4_withpba
+40 agent laning dynamics in the presence of PBA. Agents start arranged in a grid with noise added to their positions. The 20 agents on the left desire to move right and vice versa. Agents undergo vertical motion in order to utilize the space more effectively and almost immediately form lanes as the jam is broken. The few agents that find themselves amongst the group of opposing agents undergo vertical displacements until they find their lanes. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 8: Video 8-figure_5_nopba
+64 agents clustering dynamics in the absence of PBA. Agents start arranged on a grid with a minority group (red agents) placed randomly amongst a sea of agents that desire to move in the opposite direction. Minority group agents end up forming a cluster that better opposes advection by the majority. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 9: Video 9-figure_5_withpba
+64 agents clustering dynamics in the presence of PBA. Agents start arranged on a grid with a minority group (red agents) placed randomly amongst a sea of agents that desire to move in the opposite direction. Minority group agents do not end up forming a cluster as they are more compliant with the motion of the majority group. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 10: Video 10-figure_6B_withpba_allmove
+40 agents laning dynamics with PBA with unrestricted move set. 40 agent laning dynamics in the presence of PBA. Agents start arranged in a grid with noise added to their positions. The 20 agents on the left desire to move right and vice versa. Agents undergo vertical motion in order to utilize the space more effectively. The agents are unable to resolve the jam as they keep arbitrarily changing desired directions since all actions seem equally bad locally. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 11: Video 11-figure_7B_rsfm_40agents
+Laning dynamics of 40 agents following the RSFM. Agents quickly make space, move around each other, and resolve the jam. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 12: Video 12-figure_10A_withpba_40agents
+40 agents unjamming dynamics in the presence of PBA. 40 agents are arranged in a grid, and the setup is evolved without PBA until t=35, leading to the system getting stuck in a jam. At t=35, PBA is turned on, and agents make space by attaining velocities opposite their goal direction and resolving the jam. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+Supplementary video 13: Video 13-figure_10D_withpba_150agents
+150 agents unjamming dynamics. 150 agents are arranged in a grid, and the setup is evolved without PBA until t=35, leading to the system getting stuck in a jam. At t=35, PBA is turned on, and agents make space by attaining velocities opposite their goal direction. This does not help resolve the jam, and the agents continue to be stuck in a jam while attaining vertical velocity. White line: desired direction; Black line: current velocity; Red agents have their goal direction in the +ve x direction; Blue agents have their goal direction set to the -ve x direction.
+
+
